@@ -2,6 +2,7 @@
 
 // npm
 import typography from '@tailwindcss/typography'
+import forms from '@tailwindcss/forms'
 import daisyui from 'daisyui'
 
 export default {
@@ -13,6 +14,7 @@ export default {
   },
   plugins: [
     typography,
+    forms,
     daisyui,
   ],
   daisyui: {

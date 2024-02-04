@@ -11,9 +11,12 @@
     "preinstall": "npx -y only-allow pnpm",
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "tsc && astro check && astro build",
+    "build": "tsc --noEmit && astro check && astro build",
+    "check": "astro check",
+    "check:tsc": "tsc --noEmit",
+    "check:all": "tsc --noEmit && astro check",
     "preview": "astro preview",
-    "go": "astro check && astro build && astro preview",
+    "go": "tsc --noEmit && astro check && astro build && astro preview",
     "astro": "astro"
   },
   "dependencies": {

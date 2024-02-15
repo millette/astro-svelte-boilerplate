@@ -24,7 +24,7 @@
     "@astrojs/solid-js": "^4.0.1",
     "@astrojs/tailwind": "^5.1.0",
     "astro": "^4.3.7",
-    "solid-js": "^1.8.14"
+    "solid-js": "^1.8.15"
   },
   "devDependencies": {
     "@tailwindcss/forms": "^0.5.7",

@@ -17,6 +17,9 @@ dependencies:
   astro:
     specifier: ^4.5.8
     version: 4.5.8(typescript@5.4.3)
+  astro-devtool-breakpoints:
+    specifier: ^0.3.0
+    version: 0.3.0(astro@4.5.8)
   solid-js:
     specifier: ^1.8.16
     version: 1.8.16
@@ -1262,6 +1265,14 @@ packages:
 
   /array-iterate@2.0.1:
     resolution: {integrity: sha512-I1jXZMjAgCMmxT4qxXfPXa6SthSoE8h6gkSI9BGGNv8mP8G/v0blc+qFnZu6K42vTOiuME596QaLO0TP3Lk0xg==}
+    dev: false
+
+  /astro-devtool-breakpoints@0.3.0(astro@4.5.8):
+    resolution: {integrity: sha512-Mp2T1xusL6R8IUJ0La8UtEjoQgYx0m2w8EFu9SdqqhR8ggkubrT+XRB92tFgvrDtuMMiXosO9oD/ZXrsGQtVSQ==}
+    peerDependencies:
+      astro: ^4.0.0
+    dependencies:
+      astro: 4.5.8(typescript@5.4.3)
     dev: false
 
   /astro@4.5.8(typescript@5.4.3):

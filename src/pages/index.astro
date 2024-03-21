@@ -1,6 +1,7 @@
 ---
 // self
 import Hello from "../components/solid/hello.tsx"
+import ThemeSwitcher from "../components/theme-switcher.astro"
 ---
 <html lang="en">
 	<head>
@@ -12,6 +13,7 @@ import Hello from "../components/solid/hello.tsx"
 		<title>Astro</title>
 	</head>
 	<body>
+		<ThemeSwitcher />
 		<div class="container my-4">
 			<h1 class="text-4xl font-bold">Astro</h1>
 			<Hello name="Bob" />

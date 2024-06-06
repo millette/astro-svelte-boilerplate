@@ -16,13 +16,13 @@ importers:
         version: 4.2.0(solid-js@1.8.17)(vite@5.2.12(@types/node@20.14.2))
       '@astrojs/tailwind':
         specifier: ^5.1.0
-        version: 5.1.0(astro@4.9.3(@types/node@20.14.2)(typescript@5.4.5))(tailwindcss@3.4.3)
+        version: 5.1.0(astro@4.10.0(@types/node@20.14.2)(typescript@5.4.5))(tailwindcss@3.4.3)
       astro:
-        specifier: ^4.9.3
-        version: 4.9.3(@types/node@20.14.2)(typescript@5.4.5)
+        specifier: ^4.10.0
+        version: 4.10.0(@types/node@20.14.2)(typescript@5.4.5)
       astro-devtool-breakpoints:
         specifier: ^0.3.0
-        version: 0.3.0(astro@4.9.3(@types/node@20.14.2)(typescript@5.4.5))
+        version: 0.3.0(astro@4.10.0(@types/node@20.14.2)(typescript@5.4.5))
       solid-js:
         specifier: ^1.8.17
         version: 1.8.17
@@ -897,8 +897,8 @@ packages:
     peerDependencies:
       astro: ^4.0.0
 
-  astro@4.9.3:
-    resolution: {integrity: sha512-LhiKZMee56GI7+zIt15bXZVX4JSnj4syTrQdkYNgE+Y0udMad0x8RgJGzc2NMOK31e6w/SL+NFSvnt/d1kgs5w==}
+  astro@4.10.0:
+    resolution: {integrity: sha512-UNVGGZIwdEPIUumcwgIQnd90b4/PslReY9q3xy/Q6bIq/kvK0duIWCbhFPwf06xu+1tExziP9Jl+klvLXM0LfA==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -2473,9 +2473,9 @@ snapshots:
       - supports-color
       - vite
 
-  '@astrojs/tailwind@5.1.0(astro@4.9.3(@types/node@20.14.2)(typescript@5.4.5))(tailwindcss@3.4.3)':
+  '@astrojs/tailwind@5.1.0(astro@4.10.0(@types/node@20.14.2)(typescript@5.4.5))(tailwindcss@3.4.3)':
     dependencies:
-      astro: 4.9.3(@types/node@20.14.2)(typescript@5.4.5)
+      astro: 4.10.0(@types/node@20.14.2)(typescript@5.4.5)
       autoprefixer: 10.4.19(postcss@8.4.38)
       postcss: 8.4.38
       postcss-load-config: 4.0.2(postcss@8.4.38)
@@ -3160,11 +3160,11 @@ snapshots:
 
   array-iterate@2.0.1: {}
 
-  astro-devtool-breakpoints@0.3.0(astro@4.9.3(@types/node@20.14.2)(typescript@5.4.5)):
+  astro-devtool-breakpoints@0.3.0(astro@4.10.0(@types/node@20.14.2)(typescript@5.4.5)):
     dependencies:
-      astro: 4.9.3(@types/node@20.14.2)(typescript@5.4.5)
+      astro: 4.10.0(@types/node@20.14.2)(typescript@5.4.5)
 
-  astro@4.9.3(@types/node@20.14.2)(typescript@5.4.5):
+  astro@4.10.0(@types/node@20.14.2)(typescript@5.4.5):
     dependencies:
       '@astrojs/compiler': 2.8.0
       '@astrojs/internal-helpers': 0.4.0

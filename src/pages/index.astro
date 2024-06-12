@@ -3,6 +3,7 @@
 import Hello from "!solid/hello.tsx"
 import ThemeSwitcher from "!components/theme-switcher.astro"
 import Breakpoints from "!components/breakpoints.astro"
+import { darkTheme } from "!root/consts.js"
 ---
 <html lang="fr" class="overflow-y-scroll">
 	<head>
@@ -15,7 +16,7 @@ import Breakpoints from "!components/breakpoints.astro"
 	</head>
 	<body>
 		<Breakpoints />
-		<ThemeSwitcher />
+		<ThemeSwitcher theme={darkTheme} />
 		<div class="container my-4">
 			<h1 class="text-4xl font-bold">Astro</h1>
 			<Hello name="Bob" />

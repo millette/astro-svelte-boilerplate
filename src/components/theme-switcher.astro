@@ -9,7 +9,7 @@ if (Astro.props.reversed) {
   themes.dark = "🌞"
 }
 ---
-<div class="absolute mr-4">
+<div class="absolute right-2">
   <label class="swap swap-flip text-4xl">
     <input type="checkbox" id="theme-controller" class="hidden theme-controller" value={Astro.props.theme || "dark"}>
     <span class="swap-off fill-current">{themes.light}</span>

@@ -1,25 +1,9 @@
 ---
 // self
 import Hello from "!solid/hello.tsx"
-import ThemeSwitcher from "!components/theme-switcher.astro"
-import Breakpoints from "!components/breakpoints.astro"
-import { darkTheme } from "!root/consts.js"
+import Layout from "!layouts/layout.astro"
+import { title } from "!root/consts.js"
 ---
-<html lang="fr" class="overflow-y-scroll">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<meta name="description" content="Add content for SEO purposes." />
-		<title>Astro</title>
-	</head>
-	<body>
-		<Breakpoints />
-		<ThemeSwitcher theme={darkTheme} />
-		<div class="container my-4">
-			<h1 class="text-4xl font-bold">Astro</h1>
-			<Hello name="Bob" />
-		</div>
-	</body>
-</html>
+<Layout title={title}>
+	<Hello name="Bob" />
+</Layout>

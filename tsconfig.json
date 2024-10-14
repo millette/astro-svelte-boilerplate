@@ -1,6 +1,6 @@
 {
   "extends": "astro/tsconfigs/strict",
-  "include": ["src/**/*"],
+  "exclude": ["dist/**/*"],
   "compilerOptions": {
     "target": "ES2022",
     "jsx": "preserve",

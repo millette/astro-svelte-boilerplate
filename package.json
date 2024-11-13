@@ -5,9 +5,9 @@
   "engines": {
     "node": ">=22.11.0",
     "npm": ">=10.9.0",
-    "pnpm": ">=9.12.3"
+    "pnpm": ">=9.13.0"
   },
-  "packageManager": "pnpm@9.12.3",
+  "packageManager": "pnpm@9.13.0",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -23,7 +23,7 @@
     "@astrojs/check": "^0.9.4",
     "@astrojs/solid-js": "^4.4.2",
     "@astrojs/tailwind": "^5.1.2",
-    "astro": "^4.16.10",
+    "astro": "^4.16.12",
     "astro-devtool-breakpoints": "^0.3.0",
     "sharp": "^0.33.5",
     "solid-js": "^1.9.3"

@@ -12,7 +12,6 @@
       "!assets/*": ["src/assets/*"],
       "!layouts/*": ["src/layouts/*"],
       "!components/*": ["src/components/*"],
-      "!solid/*": ["src/components/solid/*"]
     }
   }
 }

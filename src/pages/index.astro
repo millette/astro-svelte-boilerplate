@@ -1,8 +1,11 @@
 ---
 // self
 import Layout from "!layouts/layout.astro"
+import Dice from "!svelte/dice.svelte"
+
 import { title } from "!root/consts.js"
 ---
 <Layout title={title}>
-	<div>Allo Bob"</div>
+	<div>Allo Bob</div>
+	<Dice client:load />
 </Layout>
